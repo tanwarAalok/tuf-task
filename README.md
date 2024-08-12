@@ -12,7 +12,7 @@
   cd tuf-task
   ```
 - Start backend
-  - First create .env file and add
+  - Go inside server directory and create .env file and add
     ```
       DB_HOST=
       DB_USER=
@@ -25,7 +25,7 @@
     npm start
     ```
 - Start Frontend
-  - First change the API_URL path in src/apiFetchers.js file
+  - Go inside client directory and change the API_URL path in src/apiFetchers.js file
   - Then in terminal
     ```
     npm i
